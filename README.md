@@ -92,8 +92,6 @@
         </div>
     </footer>
 </body>
-
-</html>
 /* General Reset */
 * {
     margin: 0;
@@ -241,3 +239,4 @@ footer .social-links a {
     text-decoration: none;
     margin: 0 10px;
 }
+</head>
