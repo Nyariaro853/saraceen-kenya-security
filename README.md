@@ -113,7 +113,7 @@
 
         /* Contact Section */
         #contact {
-            background-color: #f9f9f9;
+            background-color: green;
             padding: 40px 0;
         }
 
