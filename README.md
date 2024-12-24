@@ -21,7 +21,7 @@
         body {
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
-            background-color: #f4f4f4;
+            background-color: skyblue;
             color: #333;
         }
 
