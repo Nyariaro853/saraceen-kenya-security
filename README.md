@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="SARACEEN KENYA SECURITY SERVICES COMPANY - Providing trusted security solutions in Kenya">
     <title>SARACEEN KENYA SECURITY SERVICES</title>
-    <link rel="stylesheet" href="styles.css"> <!-- External CSS link -->
+    <!-- Link to External CSS File (If used) -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Internal CSS (Optional, if you're embedding CSS in the same HTML file) -->
     <style>
         /* General Reset */
         * {
