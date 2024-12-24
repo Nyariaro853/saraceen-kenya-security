@@ -6,7 +6,249 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="SARACEEN KENYA SECURITY SERVICES COMPANY - Providing trusted security solutions in Kenya">
     <title>SARACEEN KENYA SECURITY SERVICES</title>
+    <!-- Link to External CSS File (If used) -->
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- Internal CSS (Optional, if you're embedding CSS in the same HTML file) -->
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Container for content */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Section */
+        header {
+            background-color: skyblue;
+            color: white;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        header button a {
+            text-decoration: none;
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        /* About Us Section */
+        #about {
+            background-color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        #about p {
+            font-size: 1.1rem;
+        }
+
+        /* Vision and Mission Section */
+        #vision-mission {
+            background-color: #e9e9e9;
+            padding: 40px 0;
+        }
+
+        #vision-mission .mission-vision {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        #vision-mission h3 {
+            font-size: 1.5rem;
+        }
+
+        /* Services Section */
+        #services {
+            background-color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        #services ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #services li {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        #services button a {
+            text-decoration: none;
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        /* Contact Section */
+        #contact {
+            background-color: #f9f9f9;
+            padding: 40px 0;
+        }
+
+        #contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        #contact label {
+            font-size: 1.1rem;
+        }
+
+        #contact input,
+        #contact textarea {
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        #contact button {
+            background-color: #003366;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer .social-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Media Queries for Responsiveness */
+
+        /* For Tablets (iPads, etc.) */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            /* Adjust Mission and Vision Section for smaller screens */
+            #vision-mission .mission-vision {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            /* About Us Section */
+            #about p {
+                font-size: 1rem;
+            }
+
+            /* Services Section */
+            #services ul {
+                padding-left: 20px;
+            }
+
+            #services li {
+                font-size: 1rem;
+            }
+
+            /* Contact Section */
+            #contact form {
+                max-width: 100%;
+                padding: 0 20px;
+            }
+        }
+
+        /* For Mobile Devices (Small Phones, etc.) */
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 0.9rem;
+            }
+
+            header button a {
+                font-size: 0.9rem;
+                padding: 8px 15px;
+            }
+
+            /* Vision and Mission Section */
+            #vision-mission h3 {
+                font-size: 1.3rem;
+            }
+
+            #about p {
+                font-size: 1rem;
+            }
+
+            #services li {
+                font-size: 1rem;
+            }
+
+            #contact input,
+            #contact textarea {
+                font-size: 0.9rem;
+                padding: 8px;
+            }
+
+            footer .social-links {
+                font-size: 0.9rem;
+            }
+        }
+
+        /* For Desktop Devices */
+        @media (min-width: 1024px) {
+            header h1 {
+                font-size: 3rem;
+            }
+
+            header p {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
 </head>
 
 <body>
