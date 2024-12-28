@@ -4,11 +4,7 @@
     <div class="container">
         <!-- images/logo.png -->
         <img src="images/logo.png" alt="SARACEEN KENYA SECURITY COMPANY Logo" class="logo">
-        
-        <h1>SARACEEN KENYA SECURITY SERVICES</h1>
-        <p>Your Trusted Security Partner</p>
-        <button><a href="#contact">Contact Us</a></button>
-    </div>
+         </div>
 </header>
 <head>
     <meta charset="UTF-8">
