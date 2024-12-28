@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<header>
+    <div class="container">
+        <!-- Logo Added Here -->
+        <img src="images/logo.png" alt="SARACEEN KENYA SECURITY COMPANY Logo" class="logo">
+        
+        <h1>SARACEEN KENYA SECURITY SERVICES</h1>
+        <p>Your Trusted Security Partner</p>
+        <button><a href="#contact">Contact Us</a></button>
+    </div>
+</header>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
