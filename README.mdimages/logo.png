@@ -1,5 +1,6 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +21,7 @@
         body {
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
-            background-color: skyblue;
+            background-color: #f4f4f4;
             color: #333;
         }
 
@@ -112,7 +113,7 @@
 
         /* Contact Section */
         #contact {
-            background-color: green;
+            background-color: #f9f9f9;
             padding: 40px 0;
         }
 
@@ -335,3 +336,5 @@
 </body>
 
 </html>
+
+       
